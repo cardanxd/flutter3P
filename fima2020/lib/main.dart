@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          _buildButtonColumn(color, Icons.info, 'Iformacion'),
+          _buildButtonColumn(color, Icons.info, 'Informacion'),
           _buildButtonColumn(color, Icons.person, 'Mi cuenta'),
           _buildButtonColumn(color, Icons.assignment_ind, 'Acreditaciones'),
         ],
@@ -67,8 +67,6 @@ class MyApp extends StatelessWidget {
           children: [
             Image.asset(
               'images/logo.png',
-              width: 600,
-              height: 100,
               fit: BoxFit.cover,
             ),
             SizedBox(
@@ -104,7 +102,7 @@ class MyApp extends StatelessWidget {
           child: Text(
             label,
             style: TextStyle(
-              fontSize: 12,
+              fontSize: 17,
               fontWeight: FontWeight.w400,
               color: color,
             ),
